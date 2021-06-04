@@ -1,0 +1,15 @@
+{
+  "class": "app",
+  "id": "demo_db",
+  "name": "Data Warehouse",
+  "type": "snowflake",
+  "options": {
+    // these are all from the ENV
+    "account": "SNOWFLAKE_ACCOUNT",
+    "username": "SNOWFLAKE_USERNAME",
+    "password": "SNOWFLAKE_PASSWORD",
+    "warehouse": "SNOWFLAKE_WAREHOUSE",
+    "database": "SNOWFLAKE_DATABASE",
+    "schema": "SNOWFLAKE_SCHEMA"
+  }
+}

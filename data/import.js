@@ -5,12 +5,12 @@ const path = require("path");
 const { Snowflake } = require("snowflake-promise");
 
 const connectOptions = {
-  account: process.env.SNOWFLAKE_ACCOUNT,
-  username: process.env.SNOWFLAKE_USERNAME,
-  password: process.env.SNOWFLAKE_PASSWORD,
-  warehouse: process.env.SNOWFLAKE_WAREHOUSE,
-  database: process.env.SNOWFLAKE_DATABASE,
-  schema: process.env.SNOWFLAKE_SCHEMA,
+  account: process.env.GROUPAROO_OPTION__APP__SNOWFLAKE_ACCOUNT,
+  username: process.env.GROUPAROO_OPTION__APP__SNOWFLAKE_USERNAME,
+  password: process.env.GROUPAROO_OPTION__APP__SNOWFLAKE_PASSWORD,
+  warehouse: process.env.GROUPAROO_OPTION__APP__SNOWFLAKE_WAREHOUSE,
+  database: process.env.GROUPAROO_OPTION__APP__SNOWFLAKE_DATABASE,
+  schema: process.env.GROUPAROO_OPTION__APP__SNOWFLAKE_SCHEMA,
 };
 
 // ---------------------------------------- | Checks
@@ -18,7 +18,7 @@ const connectOptions = {
 for (const key in connectOptions) {
   if (!connectOptions[key]) {
     console.log(
-      `❌ environment variable SNOWFLAKE_${key.toUpperCase()} not set in .env file`
+      `❌ environment variable GROUPAROO_OPTION__APP__SNOWFLAKE_${key.toUpperCase()} not set in .env file`
     );
     process.exit(1);
   }
