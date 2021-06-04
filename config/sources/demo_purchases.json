@@ -1,0 +1,13 @@
+{
+  "id": "demo_purchases",
+  "name": "Product Purchases",
+  "class": "Source",
+  "type": "snowflake-table-import",
+  "appId": "demo_db",
+  "options": {
+    "table": "PURCHASES"
+  },
+  "mapping": {
+    "USER_ID": "user_id"
+  }
+}

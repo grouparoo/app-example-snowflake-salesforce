@@ -1,0 +1,26 @@
+[
+  {
+    "id": "demo_users",
+    "name": "Product Users",
+    "class": "Source",
+    "type": "snowflake-table-import",
+    "appId": "demo_db",
+    "options": {
+      "table": "USERS"
+    },
+    "mapping": {
+      "ID": "user_id"
+    }
+  },
+  {
+    "id": "demo_users_schedule",
+    "name": "Users Schedule",
+    "class": "Schedule",
+    "sourceId": "demo_users",
+    "recurring": true,
+    "recurringFrequency": 900000,
+    "options": {
+      "column": "UPDATED_AT"
+    }
+  }
+]
