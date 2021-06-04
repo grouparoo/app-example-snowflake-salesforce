@@ -1,5 +1,7 @@
 # Snowflake to Salesforce app example
 
+_An example project for using Grouparoo to connect Snowflake to Salesforce._
+
 This project shows and example how to use [Grouparoo](https://www.grouparoo.com/) to integrate a [Snowflake](https://www.snowflake.com/) data warehouse with [Salesforce](https://www.salesforce.com).
 
 With this setup, when user and purchase data changes is Snowflake, it will be automatically synced to Salesforce. It is set up to make Contacts and Campaigns, but could be configured to populate any other Salesforce Objects.
@@ -68,3 +70,7 @@ grouparoo start
 Without any other changes, this project will run with a SQLite database in a single thread. To deploy and scale a Grouparoo app to production, you will want to provision Postgres and Redis databases and configure your ENV appropriately.
 
 See [the documentation](https://www.grouparoo.com/docs/deployment) for deployment examples.
+
+---
+
+Visit https://github.com/grouparoo/app-examples to see other Grouparoo Example Projects.
