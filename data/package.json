@@ -1,0 +1,17 @@
+{
+  "name": "app-example-data-import",
+  "version": "0.0.1",
+  "license": "MPL-2.0",
+  "private": true,
+  "engines": {
+    "node": ">=12.0.0 <16.0.0"
+  },
+  "devDependencies": {
+    "csv-parse": "4.15.4",
+    "dotenv": "10.0.0",
+    "snowflake-promise": "4.5.0"
+  },
+  "scripts": {
+    "start": "node ./import.js"
+  }
+}
