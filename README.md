@@ -51,7 +51,7 @@ GROUPAROO_OPTION__APP__SALESFORCE_SECURITY_TOKEN = "Xxxyzz34i1b7RNqdP6xoKSniX"
 
 ## Run
 
-TAt this point, you can run Grouparoo to sync all the data:
+At this point, you can run Grouparoo to sync all the data:
 
 ```
 grouparoo run
