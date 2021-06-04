@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@grouparoo/core": "0.3.3",
+    "@grouparoo/salesforce": "0.3.3",
+    "@grouparoo/snowflake": "0.3.3",
     "@grouparoo/ui-community": "0.3.3"
   },
   "scripts": {
@@ -17,6 +19,8 @@
   },
   "grouparoo": {
     "plugins": [
+      "@grouparoo/salesforce",
+      "@grouparoo/snowflake",
       "@grouparoo/ui-community"
     ]
   }
