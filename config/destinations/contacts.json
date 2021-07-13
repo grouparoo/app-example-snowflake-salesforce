@@ -1,36 +1,25 @@
 {
+  "class": "Destination",
   "id": "contacts",
   "name": "contacts",
-  "class": "destination",
   "type": "salesforce-objects-export",
-  "appId": "salesforceapp", // The ID of the App this Destination uses - e.g. `appId: "salesforce_app"`
-  "groupId": "all_emails", // The ID of the group whose members you want to export - e.g. `groupId: "high_value_customers"`
-  "syncMode": "additive", // How should Grouparoo sync with this destination? Options: "sync", "additive", "enrich"
-
-  // Note that depending on your Salesforce configuration, not all options are required
-  // Learn more @ https://www.grouparoo.com/blog/salesforce-destination
-
+  "appId": "salesforceapp",
+  "groupId": "all_emails",
+  "syncMode": "additive",
   "options": {
-    "profileObject": "Contact", // Which object in Salesforce represents a Grouparoo profile?
-    "profileMatchField": "Email", // Which field in the profile Object is used to match Grouparoo profiles?
-    "groupObject": "Campaign", // Which object in Salesforce represents a Grouparoo group?
-    "groupNameField": "Name", // Which field in the group Object is used for the name of a Grouparoo group?
-    "membershipObject": "CampaignMember", // Which object in Salesforce maps the profile object to the group object?
-    "membershipProfileField": "ContactId", // Which field in the membership Object is the reference to the profile?
-    "membershipGroupField": "CampaignId", // Which field in the membership Object is the reference to the group?
-    "profileReferenceField": null, // Is there a reference field on the profile Object to fill out?
-    "profileReferenceObject": null, // If there is a reference field, which Object should be created to apply to the profile?
-    "profileReferenceMatchField": null // If there is a reference field, how should it be matched to Grouparoo profiles?
+    "groupNameField": "Name",
+    "groupObject": "Campaign",
+    "membershipGroupField": "CampaignId",
+    "membershipObject": "CampaignMember",
+    "membershipProfileField": "ContactId",
+    "profileMatchField": "Email",
+    "profileObject": "Contact"
   },
-
-  // Mappings are how you choose which properties to export to this destination.
-  // Keys are the name to display in the destination, values are the IDs of the Properties in Grouparoo.
   "mapping": {
     "Email": "email",
     "FirstName": "first_name",
     "LastName": "last_name"
   },
-
   "destinationGroupMemberships": {
     "High Value Customers": "high_value"
   }
