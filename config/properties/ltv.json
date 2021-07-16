@@ -16,6 +16,11 @@
       "key": "STATE",
       "op": "equals",
       "match": "successful"
+    },
+    {
+      "key": "CATEGORY",
+      "op": "does not equal",
+      "match": "Other"
     }
   ]
 }
