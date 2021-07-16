@@ -1,0 +1,15 @@
+{
+  "class": "Property",
+  "id": "signup_date",
+  "type": "date",
+  "name": "Signup Date",
+  "sourceId": "demo_users",
+  "unique": false,
+  "identifying": false,
+  "isArray": false,
+  "options": {
+    "aggregationMethod": "exact",
+    "column": "CREATED_AT"
+  },
+  "filters": []
+}
