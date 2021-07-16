@@ -2,7 +2,7 @@
   "class": "Property",
   "id": "last_purchase_category",
   "type": "string",
-  "name": "lastPurchaseCategory",
+  "name": "Last Purchase Category",
   "sourceId": "demo_purchases",
   "unique": false,
   "identifying": false,

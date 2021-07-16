@@ -1,7 +1,7 @@
 {
   "class": "Destination",
   "id": "contacts",
-  "name": "contacts",
+  "name": "Contacts",
   "type": "salesforce-objects-export",
   "appId": "salesforceapp",
   "groupId": "all_emails",

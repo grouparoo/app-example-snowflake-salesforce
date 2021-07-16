@@ -2,7 +2,7 @@
   "class": "Property",
   "id": "first_name",
   "type": "string",
-  "name": "firstName",
+  "name": "First Name",
   "sourceId": "demo_users",
   "unique": false,
   "identifying": false,
