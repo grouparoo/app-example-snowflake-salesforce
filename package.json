@@ -14,14 +14,16 @@
     "@grouparoo/snowflake": "0.5.1",
     "@grouparoo/ui-community": "0.5.1"
   },
+  "devDependencies": {
+    "@grouparoo/ui-config": "0.5.1"
+  },
   "scripts": {
     "start": "cd node_modules/@grouparoo/core && ./bin/start"
   },
   "grouparoo": {
     "plugins": [
       "@grouparoo/salesforce",
-      "@grouparoo/snowflake",
-      "@grouparoo/ui-community"
+      "@grouparoo/snowflake"
     ]
   }
 }

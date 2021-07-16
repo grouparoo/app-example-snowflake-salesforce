@@ -1,12 +1,11 @@
 {
-  "class": "app",
+  "class": "App",
   "id": "salesforceapp",
   "name": "Salesforce",
   "type": "salesforce",
   "options": {
-    // these come from ENV
-    "username": "SALESFORCE_USERNAME",
     "password": "SALESFORCE_PASSWORD",
-    "securityToken": "SALESFORCE_SECURITY_TOKEN"
+    "securityToken": "SALESFORCE_SECURITY_TOKEN",
+    "username": "SALESFORCE_USERNAME"
   }
 }
