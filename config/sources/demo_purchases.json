@@ -1,7 +1,7 @@
 {
+  "class": "Source",
   "id": "demo_purchases",
   "name": "Product Purchases",
-  "class": "Source",
   "type": "snowflake-table-import",
   "appId": "demo_db",
   "options": {
