@@ -1,4 +1,4 @@
-# Grouparoo `aapp-example-snowflake-salesforce`
+# Grouparoo `app-example-snowflake-salesforce`
 
 _An example project for using Grouparoo to connect Snowflake to Salesforce._
 
