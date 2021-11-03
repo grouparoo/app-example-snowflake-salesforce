@@ -1,8 +1,9 @@
 {
   "class": "Source",
   "id": "demo_purchases",
+  "modelId": "users",
   "name": "Product Purchases",
-  "type": "snowflake-table-import",
+  "type": "snowflake-import-table",
   "appId": "demo_db",
   "options": {
     "table": "PURCHASES"

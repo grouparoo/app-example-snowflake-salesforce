@@ -53,13 +53,13 @@ GROUPAROO_OPTION__APP__SALESFORCE_SECURITY_TOKEN = "Xxxyzz34i1b7RNqdP6xoKSniX"
 
 ## Run
 
-At this point, you can run Grouparoo to sync all the data:
+You can edit the configuration and test importing and exporting data:
 
 ```
-grouparoo run
+grouparoo config
 ```
 
-If you want to see the profiles and exports that have been created, use the web UI:
+If you want export all of the data, run the command you'd use in production:
 
 ```
 grouparoo start

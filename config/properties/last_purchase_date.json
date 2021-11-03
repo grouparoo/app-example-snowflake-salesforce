@@ -2,7 +2,7 @@
   "class": "Property",
   "id": "last_purchase_date",
   "type": "date",
-  "name": "Last Purchase Date",
+  "key": "Last Purchase Date",
   "sourceId": "demo_purchases",
   "unique": false,
   "identifying": false,

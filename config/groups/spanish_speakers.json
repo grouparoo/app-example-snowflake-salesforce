@@ -2,6 +2,7 @@
   "id": "spanish_speakers",
   "class": "Group",
   "type": "calculated",
+  "modelId": "users",
   "name": "Spanish Speakers",
   "rules": [
     {

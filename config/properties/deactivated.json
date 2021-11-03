@@ -2,7 +2,7 @@
   "class": "Property",
   "id": "deactivated",
   "type": "boolean",
-  "name": "Deactivated",
+  "key": "Deactivated",
   "sourceId": "demo_users",
   "unique": false,
   "identifying": false,
