@@ -2,7 +2,7 @@
   "class": "Property",
   "id": "ltv",
   "type": "float",
-  "name": "LTV",
+  "key": "LTV",
   "sourceId": "demo_purchases",
   "unique": false,
   "identifying": false,

@@ -2,8 +2,9 @@
   {
     "class": "Source",
     "id": "demo_users",
+    "modelId": "users",
     "name": "Product Users",
-    "type": "snowflake-table-import",
+    "type": "snowflake-import-table",
     "appId": "demo_db",
     "options": {
       "table": "USERS"
@@ -19,6 +20,7 @@
     "sourceId": "demo_users",
     "recurring": true,
     "recurringFrequency": 900000,
+    "confirmRecords": false,
     "options": {
       "column": "UPDATED_AT"
     },

@@ -2,6 +2,7 @@
   "id": "nobody",
   "class": "Group",
   "type": "calculated",
+  "modelId": "users",
   "name": "Nobody",
   "rules": [
     {

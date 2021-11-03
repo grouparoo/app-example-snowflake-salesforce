@@ -4,6 +4,7 @@
   "name": "Salesforce",
   "type": "salesforce",
   "options": {
+    "salesforceDomain": "https://login.salesforce.com",
     "password": "SALESFORCE_PASSWORD",
     "securityToken": "SALESFORCE_SECURITY_TOKEN",
     "username": "SALESFORCE_USERNAME"

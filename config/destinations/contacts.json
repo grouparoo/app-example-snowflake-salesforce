@@ -1,9 +1,11 @@
 {
   "class": "Destination",
   "id": "contacts",
+  "modelId": "users",
   "name": "Contacts",
-  "type": "salesforce-objects-export",
+  "type": "salesforce-export-objects",
   "appId": "salesforceapp",
+  "collection": "group",
   "groupId": "all_emails",
   "syncMode": "additive",
   "options": {
@@ -11,9 +13,9 @@
     "groupObject": "Campaign",
     "membershipGroupField": "CampaignId",
     "membershipObject": "CampaignMember",
-    "membershipProfileField": "ContactId",
-    "profileMatchField": "Email",
-    "profileObject": "Contact"
+    "membershipRecordField": "ContactId",
+    "recordMatchField": "Email",
+    "recordObject": "Contact"
   },
   "mapping": {
     "Email": "email",

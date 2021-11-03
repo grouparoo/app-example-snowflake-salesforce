@@ -1,20 +1,18 @@
 [
   {
     "id": "pro_7100c31b-b1bc-4a42-bf0a-5f5bcba488b4",
-    "class": "Profile",
+    "class": "Record",
+    "modelId": "users",
     "properties": {
-      "user_id": [
-        10
-      ]
+      "user_id": [10]
     }
   },
   {
     "id": "pro_2daa1950-311e-433d-903d-1c544acacb39",
-    "class": "Profile",
+    "class": "Record",
+    "modelId": "users",
     "properties": {
-      "user_id": [
-        440
-      ]
+      "user_id": [440]
     }
   }
 ]
