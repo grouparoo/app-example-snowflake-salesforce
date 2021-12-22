@@ -16,13 +16,7 @@ Then we can install Grouparoo packages.
 npm install
 ```
 
-We can also seed the data in Snowflake if you like.
-
-```
-./data/import
-```
-
-Finally, let's set up the Grouparoo `.env` file. These can also be set in the system `ENV`.
+Let's set up the Grouparoo `.env` file. These can also be set in the system `ENV`.
 
 ```
 cp .env.example .env
@@ -50,6 +44,13 @@ GROUPAROO_OPTION__APP__SALESFORCE_USERNAME = "demo@grouparoo.com"
 GROUPAROO_OPTION__APP__SALESFORCE_PASSWORD = "m7wyDx6uT-o!QFyXe"
 GROUPAROO_OPTION__APP__SALESFORCE_SECURITY_TOKEN = "Xxxyzz34i1b7RNqdP6xoKSniX"
 ```
+
+You can also seed the data in Snowflake if you like with demo data.
+
+```
+./data/import
+```
+
 
 ## Run
 
